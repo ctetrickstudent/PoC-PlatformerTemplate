@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://gccmx7pl7k64"]
 
-[ext_resource type="Script" uid="uid://e6xpvil12gos" path="res://coin.gd" id="1_0t63x"]
 [ext_resource type="Texture2D" uid="uid://cvx5uxp26dhlv" path="res://Assets/sprites/coin.png" id="1_d5gmh"]
+[ext_resource type="Script" uid="uid://cvpfis088wrnf" path="res://scripts/coin.gd" id="1_i64fm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0t63x"]
 atlas = ExtResource("1_d5gmh")
@@ -99,7 +99,7 @@ animations = [{
 radius = 5.0
 
 [node name="Coin" type="Area2D"]
-script = ExtResource("1_0t63x")
+script = ExtResource("1_i64fm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_s5w7y")

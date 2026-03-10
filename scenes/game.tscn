@@ -309,6 +309,7 @@ _data = {
 
 [node name="Player" parent="." instance=ExtResource("1_lbhrr")]
 position = Vector2(0, 4)
+script = null
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 scale = Vector2(1, 1.00835)
@@ -334,3 +335,4 @@ autoplay = "move"
 
 [node name="Coin" parent="." instance=ExtResource("4_u5sy4")]
 position = Vector2(248, -7)
+script = null
